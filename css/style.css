@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+body{
+    background-color: black;
+    
+}
+main{
+    min-height: 100vh;
+}
+
+.fecha{
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    font-size: 2em;
+    letter-spacing: 0,1em;
+}
+
+.hora{
+    font-family: 'Londrina Outline', cursive;
+    color: white;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+
+/* efectos neon */
+.green{
+    text-shadow: 
+        0 0 5px #7bffce, 
+        0 0 10px #7bffce,
+        0 0 20px #7bffce,
+        0 0 30px #7bffce,
+        0 0 40px #7bffce,
+        0 0 80px #7bffce,
+        0 0 90px #7bffce,
+        0 0 100px #7bffce;
+}
+
+.blue{
+    text-shadow: 
+        0 0 5px #7bacff, 
+        0 0 10px #7bacff,
+        0 0 10px #7bacff,
+        0 0 20px #7bacff,
+        0 0 30px #7bacff,
+        0 0 40px #7bacff,
+        0 0 80px #7bacff,
+        0 0 90px #7bacff,
+        0 0 100px #7bacff;
+}
+
+.pink{
+    text-shadow: 
+        0 0 5px #ff7bac, 
+        0 0 10px #ff7bac,
+        0 0 20px #ff7bac,
+        0 0 30px #ff7bac,
+        0 0 40px #ff7bac,
+        0 0 80px #ff7bac,
+        0 0 90px #ff7bac,
+        0 0 100px #ff7bac;
+}
+
+
+/* botones */
+.btn-green{
+    background: springgreen;
+}
+
+.btn-blue{
+    background: steelblue;
+}
+
+.btn-pink{
+   background:palevioletred; 
+}
+
+.boton{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
