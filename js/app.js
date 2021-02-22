@@ -43,3 +43,18 @@ function obtenerFecha(){
 }
 
 window.setInterval(obtenerFecha,1000);
+
+function cambiarColorPink(){
+    let section = document.getElementById('reloj');
+    section.className = 'w-75 pink';
+}
+
+function cambiarColorBlue(){
+    let section = document.getElementById('reloj');
+    section.className = 'w-75 blue';
+}
+
+function cambiarColorGreen(){
+    let section = document.getElementById('reloj');
+    section.className = 'w-75 green';
+}
